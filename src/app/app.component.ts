@@ -6,6 +6,10 @@ import { FormsComponent } from './components/forms/forms.component';
 import { FooterComponent } from './components/footer/footer.component';
 
 
+
+
+
+
 @Component({
   selector: 'app-root',
   standalone: true,

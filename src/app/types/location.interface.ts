@@ -8,7 +8,10 @@ export interface Location {
     fountain: string,
     locker_room: string,
     schedules: Schedule[]
+
+    
 }
+
 
 interface Schedule {
     weekdays: string,

@@ -1,0 +1,72 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    padding: 20px;
+
+    border-radius: 8px;
+    background-color: #f5f5f5;
+
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(179,179,179,1);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(179,179,179,1);
+    box-shadow: 0px 0px 8px 0px rgba(179,179,179,1);
+
+    gap: 12px;
+    width: 358px;
+    height: 600px;
+}
+
+.card .divider {
+    height: 2px;
+    width: 100%;
+    background-color: var(--light-text);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.card span {
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--red)
+}
+
+.card span.opened {
+    color: var(--green);
+}
+
+.card h3 {
+    color: var(--dark-grey);
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.card p {
+    color: var(--light-grey);
+    font-size: 16px;
+}
+
+.card ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 26px;
+}
+
+.card li {
+    display: flex;
+    flex-direction: column;
+    color: var(--dark-grey);
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.card li b {
+    color: var(--dark-grey);
+    font-size: 21px;
+}
+
+.card img {
+    height: 60px;
+}

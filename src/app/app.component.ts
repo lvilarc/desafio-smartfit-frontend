@@ -7,6 +7,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { BehaviorSubject } from 'rxjs';
 import { CardsListComponent } from './components/cards-list/cards-list.component';
 import { GetUnitsService } from './services/get-units.service';
+import { LegendComponent } from './components/legend/legend.component';
 
 
 
@@ -16,7 +17,7 @@ import { GetUnitsService } from './services/get-units.service';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, HeaderComponent, FormsComponent, FooterComponent, CardsListComponent],
+  imports: [CommonModule, RouterOutlet, HeaderComponent, FormsComponent, FooterComponent, CardsListComponent, LegendComponent],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
